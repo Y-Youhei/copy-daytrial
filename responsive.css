@@ -1,0 +1,75 @@
+@media all and (max-width: 670px) {
+  .container {
+    width: 95%;
+  }
+header {
+  text-align: center;
+  height: auto;
+} 
+ .head-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header-right {
+    display: flex;
+    width: 100%;
+  }
+  .header-right a {
+    margin: 0 auto;
+    padding: 0 0;
+    
+  }
+  .header-left {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .main-wrapper p {
+    width: 100%;
+  }
+.br-sp {
+  display: block;
+}
+
+  .about {
+    flex-direction: column;
+  }
+  .about-image,
+  .texts {
+    width: 100%;
+  }
+  .texts {
+    text-align: left;
+    padding-top: 20px;
+  }
+  .courses {
+    flex-direction: column;
+  }
+  .course {
+    width: 100%;
+    text-align: center;
+  }
+  .course img {
+    width: 100%;
+  }
+  .course p {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 5px 0 20px 0;
+  }
+  .mail-form, 
+  .btn {
+    display: block;
+    width: 100%;
+  }
+  .mail-form p {
+    margin-top: 30px;
+    width: 100%;
+  
+  }
+footer p {
+  width: 95%; 
+  text-align: center;
+}
+}
