@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+  }
+
+.container {
+  max-width: 1170px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  height: 65px;
+  }
+
+.head-container {
+  display: flex;
+
+}
+.header-left,
+.header-right {
+  width: 50%;
+}
+.header-left {
+  line-height: 65px;
+  font-size: 24px;
+  font-weight: bold;
+ text-align: left;
+}
+.header-right {
+  line-height: 65px;
+  text-align: right;
+}
+.header-right a {
+display: inline-block;
+color: black;
+font-weight: bold;
+padding-left: 20px;
+}
+
+.main-wrapper {
+  text-align: center;
+  background-image: url("img/main-vsual-nontitle.png");
+  background-size: cover;
+  padding: 120px 0;
+  font-weight: bold;
+}
+.main-wrapper h2 {
+  font-size: 36px;
+  padding-bottom: 35px;
+  line-height: 50px;
+}
+.main-wrapper p {
+  width: 30%;
+  margin: 0 auto;
+  line-height: 26px;
+}
+.br-sp {
+  display: none;
+}
+
+
+.about-wrapper {
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px 0 ;
+}
+.about-wrapper h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 40px;
+}
+.about {
+  display: flex;
+}
+.about-image,
+.texts {
+  width: 50%;
+}
+.about-image img {
+  width: 100%;
+  height: auto;
+  padding-right: 20px;
+}
+
+.course-wrapper {
+  padding: 30px;
+}
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 40px 0 ;
+
+}
+.courses {
+  margin: 0 auto;
+  display: flex;
+}
+.course {
+  text-align: left;
+  width:30%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+.course img {
+  width: 80%;
+}
+
+.contact-wrapper {
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+}
+.contact-wrapper h5 {
+  font-size: 24px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  }
+.contact-wrapper p {
+  font-size: 14px;
+}
+.mail-form  p { 
+  opacity: 0.6;
+  border: 2px solid gray;
+  border-radius: 40px;
+  text-align: left;
+  display: inline-block;
+  width: 500px;
+  padding: 15px 10px;
+}
+.btn {
+  display: inline-block;
+  background-color:#ec6d64;
+  border-radius: 3px;
+  padding: 10px 30px;
+  opacity: 0.8;
+  margin: 20px 0 50px 0;
+  width: 330px;
+  height: 60px;
+  vertical-align: middle;
+}
+.btn a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.btn:hover {
+  opacity: 1;
+}
+footer p {
+  border-top: 1px solid #edeaea;
+  text-align: right;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 40px;
+  font-size: 10px;
+}
